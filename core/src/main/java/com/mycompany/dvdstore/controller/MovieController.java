@@ -3,10 +3,10 @@ package com.mycompany.dvdstore.controller;
 import java.util.Scanner;
 
 import com.mycompany.dvdstore.entity.Movie;
-import com.mycompany.dvdstore.service.MovieService;
+import com.mycompany.dvdstore.service.MovieServiceInterface;
 
 public class MovieController {
-  private MovieService movieService = new MovieService();
+  private MovieServiceInterface movieService;
 
   public void addUsingConsole() {
     System.out.println("Enter movie title: ");
