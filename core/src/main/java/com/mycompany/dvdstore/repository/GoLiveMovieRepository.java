@@ -5,7 +5,7 @@ import java.io.IOException;
 
 import com.mycompany.dvdstore.entity.Movie;
 
-public class GoLiveMovieRepository {
+public class GoLiveMovieRepository implements MovieRepositoryInterface {
   public void add(Movie movie) {
     FileWriter writer;
     try {
