@@ -19,4 +19,12 @@ public class MovieController {
     movie.setGenre(genre);
     movieService.registerMovie(movie);
   }
+
+  public MovieServiceInterface getMovieService() {
+    return movieService;
+  }
+
+  public void setMovieService(MovieServiceInterface movieService) {
+    this.movieService = movieService;
+  }
 }
