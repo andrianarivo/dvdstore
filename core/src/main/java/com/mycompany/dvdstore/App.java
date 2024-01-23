@@ -1,8 +1,8 @@
 package com.mycompany.dvdstore;
 
 import com.mycompany.dvdstore.controller.MovieController;
-import com.mycompany.dvdstore.repository.GoLiveMovieRepository;
-import com.mycompany.dvdstore.service.MovieService;
+import com.mycompany.dvdstore.repository.FileMovieRepository;
+import com.mycompany.dvdstore.service.DefaultMovieService;
 
 /**
  * Hello world!
@@ -11,8 +11,8 @@ import com.mycompany.dvdstore.service.MovieService;
 public class App {
   public static void main(String[] args) {
     MovieController movieController = new MovieController();
-    MovieService movieService = new MovieService();
-    GoLiveMovieRepository movieRepository = new GoLiveMovieRepository();
+    DefaultMovieService movieService = new DefaultMovieService();
+    FileMovieRepository movieRepository = new FileMovieRepository();
     movieService.setMovieRepository(movieRepository);
     movieController.setMovieService(movieService);
     movieController.addUsingConsole();
