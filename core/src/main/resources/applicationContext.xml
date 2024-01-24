@@ -4,11 +4,13 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans
     http://www.springframework.org/schema/beans/spring-beans.xsd">
 
-    <bean id="movieRepository" class="com.mycompany.invoise.FileMovieRepository"/>
-    <bean id="movieService" class="com.mycompany.invoise.DefaultMovieService">
+    <bean id="movieRepository" class="com.mycompany.dvdstore.repository.FileMovieRepository">
+        <property name="file" value="movies.csv" />
+    </bean>
+    <bean id="movieService" class="com.mycompany.dvdstore.service.DefaultMovieService">
         <property name="movieRepository" ref="movieRepository"/>
     </bean>
-    <bean class="com.mycompany.invoise.MovieController">
+    <bean class="com.mycompany.dvdstore.controller.MovieController">
         <property name="movieService" ref="movieService"/>
     </bean>
 
