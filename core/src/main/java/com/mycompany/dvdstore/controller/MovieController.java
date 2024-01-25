@@ -1,13 +1,17 @@
 package com.mycompany.dvdstore.controller;
 
 import java.util.Scanner;
-import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
 import com.mycompany.dvdstore.entity.Movie;
 import com.mycompany.dvdstore.service.MovieServiceInterface;
 
+@Controller
 public class MovieController {
-  @Autowired
-  private MovieServiceInterface movieService;
+  private final MovieServiceInterface movieService;
+
+  public MovieController(MovieServiceInterface movieService) {
+    this.movieService = movieService;
+  }
 
   public void addUsingConsole() {
     System.out.println("Enter movie title: ");
@@ -25,7 +29,4 @@ public class MovieController {
     return movieService;
   }
 
-  public void setMovieService(MovieServiceInterface movieService) {
-    this.movieService = movieService;
-  }
 }

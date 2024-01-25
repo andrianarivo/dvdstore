@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.mycompany.dvdstore.AppTest" time="0.045" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.mycompany.dvdstore.AppTest" time="0.053" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="21"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
-    <property name="java.class.path" value="/home/david/Documents/novity/dvd-store/core/target/test-classes:/home/david/Documents/novity/dvd-store/core/target/classes:/home/david/.m2/repository/org/springframework/spring-context/5.2.3.RELEASE/spring-context-5.2.3.RELEASE.jar:/home/david/.m2/repository/org/springframework/spring-aop/5.2.3.RELEASE/spring-aop-5.2.3.RELEASE.jar:/home/david/.m2/repository/org/springframework/spring-beans/5.2.3.RELEASE/spring-beans-5.2.3.RELEASE.jar:/home/david/.m2/repository/org/springframework/spring-core/5.2.3.RELEASE/spring-core-5.2.3.RELEASE.jar:/home/david/.m2/repository/org/springframework/spring-jcl/5.2.3.RELEASE/spring-jcl-5.2.3.RELEASE.jar:/home/david/.m2/repository/org/springframework/spring-expression/5.2.3.RELEASE/spring-expression-5.2.3.RELEASE.jar:/home/david/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/david/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:"/>
+    <property name="java.class.path" value="/home/david/Documents/novity/dvd-store/core/target/test-classes:/home/david/Documents/novity/dvd-store/core/target/classes:/home/david/.m2/repository/org/springframework/spring-context/6.1.3/spring-context-6.1.3.jar:/home/david/.m2/repository/org/springframework/spring-aop/6.1.3/spring-aop-6.1.3.jar:/home/david/.m2/repository/org/springframework/spring-beans/6.1.3/spring-beans-6.1.3.jar:/home/david/.m2/repository/org/springframework/spring-core/6.1.3/spring-core-6.1.3.jar:/home/david/.m2/repository/org/springframework/spring-jcl/6.1.3/spring-jcl-6.1.3.jar:/home/david/.m2/repository/org/springframework/spring-expression/6.1.3/spring-expression-6.1.3.jar:/home/david/.m2/repository/io/micrometer/micrometer-observation/1.12.2/micrometer-observation-1.12.2.jar:/home/david/.m2/repository/io/micrometer/micrometer-commons/1.12.2/micrometer-commons-1.12.2.jar:/home/david/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/david/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:"/>
     <property name="java.vm.vendor" value="Private Build"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.vendor.url" value="Unknown"/>
@@ -12,9 +12,9 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="/usr/lib/jvm/java-21-openjdk-amd64/lib"/>
-    <property name="sun.java.command" value="/home/david/Documents/novity/dvd-store/core/target/surefire/surefirebooter2221338077255636548.jar /home/david/Documents/novity/dvd-store/core/target/surefire 2024-01-24T18-42-11_778-jvmRun1 surefire14305394038480809928tmp surefire_01048362057715594748tmp"/>
+    <property name="sun.java.command" value="/home/david/Documents/novity/dvd-store/core/target/surefire/surefirebooter13857083603316831838.jar /home/david/Documents/novity/dvd-store/core/target/surefire 2024-01-25T19-05-53_281-jvmRun1 surefire9258994289718998270tmp surefire_017786782582533921521tmp"/>
     <property name="jdk.debug" value="release"/>
-    <property name="surefire.test.class.path" value="/home/david/Documents/novity/dvd-store/core/target/test-classes:/home/david/Documents/novity/dvd-store/core/target/classes:/home/david/.m2/repository/org/springframework/spring-context/5.2.3.RELEASE/spring-context-5.2.3.RELEASE.jar:/home/david/.m2/repository/org/springframework/spring-aop/5.2.3.RELEASE/spring-aop-5.2.3.RELEASE.jar:/home/david/.m2/repository/org/springframework/spring-beans/5.2.3.RELEASE/spring-beans-5.2.3.RELEASE.jar:/home/david/.m2/repository/org/springframework/spring-core/5.2.3.RELEASE/spring-core-5.2.3.RELEASE.jar:/home/david/.m2/repository/org/springframework/spring-jcl/5.2.3.RELEASE/spring-jcl-5.2.3.RELEASE.jar:/home/david/.m2/repository/org/springframework/spring-expression/5.2.3.RELEASE/spring-expression-5.2.3.RELEASE.jar:/home/david/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/david/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:"/>
+    <property name="surefire.test.class.path" value="/home/david/Documents/novity/dvd-store/core/target/test-classes:/home/david/Documents/novity/dvd-store/core/target/classes:/home/david/.m2/repository/org/springframework/spring-context/6.1.3/spring-context-6.1.3.jar:/home/david/.m2/repository/org/springframework/spring-aop/6.1.3/spring-aop-6.1.3.jar:/home/david/.m2/repository/org/springframework/spring-beans/6.1.3/spring-beans-6.1.3.jar:/home/david/.m2/repository/org/springframework/spring-core/6.1.3/spring-core-6.1.3.jar:/home/david/.m2/repository/org/springframework/spring-jcl/6.1.3/spring-jcl-6.1.3.jar:/home/david/.m2/repository/org/springframework/spring-expression/6.1.3/spring-expression-6.1.3.jar:/home/david/.m2/repository/io/micrometer/micrometer-observation/1.12.2/micrometer-observation-1.12.2.jar:/home/david/.m2/repository/io/micrometer/micrometer-commons/1.12.2/micrometer-commons-1.12.2.jar:/home/david/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/david/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="/home/david"/>
     <property name="user.language" value="en"/>
@@ -27,7 +27,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
-    <property name="surefire.real.class.path" value="/home/david/Documents/novity/dvd-store/core/target/surefire/surefirebooter2221338077255636548.jar"/>
+    <property name="surefire.real.class.path" value="/home/david/Documents/novity/dvd-store/core/target/surefire/surefirebooter13857083603316831838.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="21.0.1+12-Ubuntu-222.04"/>
     <property name="user.name" value="david"/>
@@ -53,5 +53,5 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="65.0"/>
   </properties>
-  <testcase name="shouldAnswerWithTrue" classname="com.mycompany.dvdstore.AppTest" time="0.004"/>
+  <testcase name="shouldAnswerWithTrue" classname="com.mycompany.dvdstore.AppTest" time="0.006"/>
 </testsuite>
