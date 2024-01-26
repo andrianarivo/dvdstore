@@ -12,7 +12,7 @@ import com.mycompany.dvdstore.controller.MovieController;
 @SpringBootApplication
 public class App {
   public static void main(String[] args) {
-    ApplicationContext context = SpringApplication.run(App.class);
+    ApplicationContext context = SpringApplication.run(App.class, args);
     MovieController controller = context.getBean(MovieController.class);
     controller.addUsingConsole();
   }
