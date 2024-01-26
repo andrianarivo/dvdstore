@@ -6,7 +6,7 @@ import org.springframework.stereotype.Repository;
 import com.mycompany.dvdstore.entity.Movie;
 import com.mycompany.dvdstore.repository.MovieRepositoryInterface;
 
-@Repository
+// @Repository
 public class MemoryMovieRepository implements MovieRepositoryInterface {
   private List<Movie> movies = new ArrayList<>();
 
