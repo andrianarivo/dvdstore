@@ -1,27 +1,19 @@
 package com.mycompany.dvdstore;
 
-import java.util.Scanner;
-
-import com.mycompany.dvdstore.entity.Movie;
-import com.mycompany.dvdstore.service.MovieService;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.ApplicationContext;
+import com.mycompany.dvdstore.controller.MovieController;
 
 /**
  * Hello world!
  *
  */
-public class App 
-{
-    public static void main( String[] args )
-    {
-        System.out.println( "Enter movie title: " );
-        Scanner sc = new Scanner(System.in);
-        String title = sc.nextLine();
-        System.out.println( "Enter movie genre: " );
-        String genre = sc.nextLine();
-        MovieService movieService = new MovieService();
-        Movie movie = new Movie();
-        movie.setTitle(title);
-        movie.setGenre(genre);
-        movieService.registerMovie(movie);
-    }
+@SpringBootApplication
+public class App {
+  public static void main(String[] args) {
+    ApplicationContext context = SpringApplication.run(App.class, args);
+    MovieController controller = context.getBean(MovieController.class);
+    controller.addUsingConsole();
+  }
 }

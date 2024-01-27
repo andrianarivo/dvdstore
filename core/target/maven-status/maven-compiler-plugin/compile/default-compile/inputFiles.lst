@@ -1,0 +1,8 @@
+/home/david/Documents/novity/dvd-store/core/src/main/java/com/mycompany/dvdstore/service/DefaultMovieService.java
+/home/david/Documents/novity/dvd-store/core/src/main/java/com/mycompany/dvdstore/controller/MovieController.java
+/home/david/Documents/novity/dvd-store/core/src/main/java/com/mycompany/dvdstore/service/MovieServiceInterface.java
+/home/david/Documents/novity/dvd-store/core/src/main/java/com/mycompany/dvdstore/repository/file/FileMovieRepository.java
+/home/david/Documents/novity/dvd-store/core/src/main/java/com/mycompany/dvdstore/App.java
+/home/david/Documents/novity/dvd-store/core/src/main/java/com/mycompany/dvdstore/entity/Movie.java
+/home/david/Documents/novity/dvd-store/core/src/main/java/com/mycompany/dvdstore/repository/MovieRepositoryInterface.java
+/home/david/Documents/novity/dvd-store/core/src/main/java/com/mycompany/dvdstore/repository/memory/MemoryMovieRepository.java
