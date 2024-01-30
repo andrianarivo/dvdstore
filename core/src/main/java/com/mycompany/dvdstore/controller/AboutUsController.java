@@ -9,7 +9,7 @@ public class AboutUsController {
   @RequestMapping("/about-us")
   public String displayFullDetails() {
     System.out.println("displayFullDetails() called");
-    return "";
+    return "about-us";
   }
 
 }
