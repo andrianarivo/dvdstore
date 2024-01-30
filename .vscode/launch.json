@@ -14,8 +14,8 @@
       "type": "java",
       "name": "App",
       "request": "launch",
-      "mainClass": "com.mycompany.dvdstore.App",
-      "projectName": "core"
+      "mainClass": "com.mycompany.dvdstore.web.WebApplication",
+      "projectName": "web"
     }
   ]
 }
