@@ -11,12 +11,15 @@ public class MemoryMovieRepository implements MovieRepositoryInterface {
 
   public void add(Movie movie) {
     movies.add(movie);
-    System.out.println("The movie " + movie.getTitle() + " has been added");
   }
 
   @Override
   public List<Movie> list() {
-    // TODO Auto-generated method stub
-    throw new UnsupportedOperationException("Unimplemented method 'list'");
+    return movies;
+  }
+
+  @Override
+  public Movie getById(long id) {
+    return movies.stream().filter(m -> m.getId() == id).findFirst().get();
   }
 }
