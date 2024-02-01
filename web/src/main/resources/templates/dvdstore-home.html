@@ -6,6 +6,7 @@
   <title>Document</title>
 </head>
 <body>
+  <a th:href="@{/add-movie-form}">Add a movie</a>
   <table border="1">
     <tr th:each="movie: ${movies}">
       <td><a th:href="@{/movie/{id} (id=${movie.id})}" th:text="${movie.title}"></a></td>

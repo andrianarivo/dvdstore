@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <form th:action="@{/movie}" method="POST" th:object="${movie}">
+    <div><label>Title: <input type="text" th:field="*{title}"/></label></div>
+    <div><label>Genre: <input type="text" th:field="*{genre}"/></label></div>
+    <div><label>Description: <textarea th:field="*{description}"></textarea></label></div>
+    <input type="submit" value="OK"/>
+  </form>
+</body>
+</html>
